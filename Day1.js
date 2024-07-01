@@ -117,10 +117,39 @@ function length(str) {
     return 1 + length(str.substring(1));
   }
 }
-console.log(length("apple"), 5);
+// console.log(length("apple"), 5);
 
-console.log(length("make"), 4);
+// console.log(length("make"), 4);
 
-console.log(length("a"), 1);
+// console.log(length("a"), 1);
 
-console.log(length(""), 0);
+// console.log(length(""), 0);    
+
+// 9.
+// Given two strings, firstName and lastName, return a single string in the format "last, first".
+
+// Examples
+function concatName(first , last){
+  return last + ", " + first
+}
+// console.log( concatName("First", "Last") , "Last, First");
+
+// console.log( concatName("John", "Doe") , "Doe, John");
+
+// console.log( concatName("Mary", "Jane") , "Jane, Mary");
+
+
+// 10.
+// Create a function that evaluates an equation.
+
+// Examples
+function eq(str){
+  return eval(str)
+}
+// console.log( eq("1+2") , 3);
+
+// console.log( eq("6/(9-7)") , 3);
+
+// console.log( eq("3+2-4") , 1);
+
+
