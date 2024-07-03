@@ -177,10 +177,11 @@ function isLastCharacterN(str){
     // return false
     return str.endsWith("n")
 }
-console.log( isLastCharacterN("Aiden") , true);
+// console.log( isLastCharacterN("Aiden") , true);
 
-console.log( isLastCharacterN("Piet") , false);
+// console.log( isLastCharacterN("Piet") , false);
 
-console.log( isLastCharacterN("Bert") , false);
+// console.log( isLastCharacterN("Bert") , false);
 
-console.log( isLastCharacterN("Dean") , true);
+// console.log( isLastCharacterN("Dean") , true);
+
