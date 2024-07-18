@@ -178,10 +178,29 @@ function moodToday(str = "neutral") {
 
 // Examples
 function countSyllables(str){
-  // return str.length / 2
+  return str.length / 2
 }
-console.log(countSyllables("Hehehehehehe"), 6);
+// console.log(countSyllables("Hehehehehehe"), 6);
 
-console.log(countSyllables("bobobobobobobobo"), 8);
+// console.log(countSyllables("bobobobobobobobo"), 8);
 
-console.log(countSyllables("NANANA"), 3);
+// console.log(countSyllables("NANANA"), 3);
+
+// 31.
+
+// Create a function that returns the ASCII value of the passed in character.
+
+// Examples
+function ctoa(char){
+  return char.charCodeAt(0)
+}
+// console.log( ctoa("A") , 65);
+
+// console.log( ctoa("m") , 109);
+
+// console.log( ctoa("[") , 91);
+
+// console.log( ctoa("\\") , 92);
+
+
+
