@@ -185,3 +185,21 @@ function modifyLast(str, n) {
 
 // console.log(modifyLast("excuse me what?", 5), "excuse me what?????");
 
+// 40.
+// You can assign variables from nested arrays like this:
+
+const arr = ["cars", "planes", ["trains", ["motorcycles"]]]
+
+// let trans1 = arr[0]
+// let trans2 = arr[1]
+// let trans3 = arr[2][0]
+// let trans4 = arr[2][1][0]
+
+const [trans1 , trans2 ,[trans3,[trans4]]] = arr
+
+// console.log(trans1) // outputs "cars"
+// console.log(trans2) // outputs "planes"
+// console.log(trans3) // outputs "trains"
+// console.log(trans4) // outputs "motorcycles"
+
+
